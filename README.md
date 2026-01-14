@@ -53,7 +53,7 @@ The paper emphasizes real-world multi-center data and includes follow-up scans; 
 ---
 
 ## 2. Method Summary (Brief)
-![Pipeline](Overall workflow diagram.png)
+![Pipeline](main/Overall workflow diagram.png)
 
 * **Two-stage cascade**:
 
