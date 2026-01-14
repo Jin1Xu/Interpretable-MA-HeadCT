@@ -53,14 +53,15 @@ The paper emphasizes real-world multi-center data and includes follow-up scans; 
 ---
 
 ## 2. Method Summary (Brief)
-![Pipeline](workflow.png)
+![Pipeline](fig/workflow.png)
 
 
 * **Two-stage cascade**:
 
   * **Task 1**: A lightweight 3D CNN for rapid critical-value screening (high sensitivity prioritized).
   * **Task 2**: A deeper 3D CNN for five-class subtype classification, using multi-level feature fusion and attention-based recalibration. 
-* **Interpretability and evidence chain**: key-slice localization, HU-driven lesion saliency mapping, and brain-herniation quantification via midline shift estimation. 
+* **Interpretability and evidence chain**: key-slice localization, HU-driven lesion saliency mapping, and brain-herniation quantification via midline shift estimation.
+![Pipeline](fig/figure_explain.pdf) 
 * **Multi-agent structured reporting (MAS)**: observer/scholar/auditor/reporter agents with iterative cross-checking (up to n=5 iterations), with heavier reasoning triggered mainly for ambiguous/complex cases. 
 
 ---
